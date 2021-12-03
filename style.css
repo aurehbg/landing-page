@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-wrapper {
+.wrapper {
     background-color: #1f2937;
     padding: 0px 150px 50px;
 }
@@ -58,7 +58,7 @@ button {
 }
 
 .content-wrapper {
-    padding: 25px 150px 50px;
+    padding: 50px 150px 50px;
     text-align: center;
 }
 
@@ -96,3 +96,54 @@ h2 {
     font-weight: 900;
     color: #1f2937;
     text-align: right;
+}
+
+.content-wrapper h2 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+
+.description {
+    text-align: left;
+}
+
+.cta p {
+    font-size: 12px;
+    margin: 0px;
+    padding-top:5px;
+    color: #e5e7eb;
+}
+
+.cta button {
+    border-radius: 5px;
+    border: white;
+    font-size: 14px;
+    color: #F9FAF8;
+    padding: 10px 20px;
+
+}
+
+.cta h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.footer-wrapper {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+   
+} 
