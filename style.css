@@ -5,7 +5,7 @@ body {
 
 .header-wrapper {
     background-color: #1f2937;
-    padding: 0px 150px;
+    padding: 0px 150px 50px;
 }
 
 .logo img {
@@ -13,7 +13,7 @@ body {
     height:auto;
 }
 
-.header {
+.header, .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +25,36 @@ body {
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
+}
+
+.banner img {
+    max-width: auto;
+    max-height: 250px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: #F9FAF8;
+    padding: 10px 20px;
+
 }
 
 
